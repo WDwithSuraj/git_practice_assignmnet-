@@ -1,7 +1,7 @@
 let num = 7;
 let count = 0;
 for (i = 0; i <= num; i++) {
-  if (num % 1 == 0) {
+  if (num % i == 0) {
     count++;
   }
 }
